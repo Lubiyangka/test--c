@@ -29,7 +29,7 @@ help::~help()
     delete ui;
 }
 //修改help.cpp文件
-//在热修分支上修改文件
+//测试呀
 void help::on_pushButton_clicked()
 {
     Widget* w = new Widget();
