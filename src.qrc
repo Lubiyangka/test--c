@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/background.png</file>
+        <file>C:/Users/LEO/Desktop/bg1.jpg</file>
+        <file>C:/Users/LEO/Desktop/bg2.jpg</file>
+        <file>C:/Users/LEO/Desktop/title.png</file>
+        <file>C:/Users/LEO/Desktop/bbg1.png</file>
+        <file>C:/Users/LEO/Desktop/bbg2.png</file>
+        <file>C:/Users/LEO/Desktop/btn-removebg-preview.png</file>
+        <file>C:/Users/LEO/Desktop/dan.png</file>
+        <file>C:/Users/LEO/Desktop/shuang.png</file>
+        <file>C:/Users/LEO/Desktop/hp.png</file>
+        <file>C:/Users/LEO/Desktop/switch.png</file>
+        <file>C:/Users/LEO/Desktop/bbbg.jpg</file>
+    </qresource>
+</RCC>
