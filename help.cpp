@@ -12,18 +12,23 @@ help::help(QWidget *parent) :
     mscene.setSceneRect(QRect(0,0,1000,700));
 //    Widget* ww = new Widget;
     QString pt = "://C:/Users/LEO/Desktop/bbbg.jpg";
-    bg1.setPixmap(QPixmap(pt));
-    mscene.addItem(&bg1);
-    mview.setScene(&mscene);
-    mview.setParent(this);
-    mview.show();
-    ui->setupUi(this);
-}
+    if(pt==NULL){
+    	printf("error")
+    }
+    else{
+    	bg1.setPixmap(QPixmap(pt));
+    	mscene.addItem(&bg1);
+    	mview.setScene(&mscene);
+    	mview.setParent(this);
+    	mview.show();
+    	ui->setupUi(this);
+    }
 
 help::~help()
 {
     delete ui;
 }
+//修改help.cpp文件
 
 void help::on_pushButton_clicked()
 {
